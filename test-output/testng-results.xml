@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launching]]>
+    </line>
+    <line>
+      <![CDATA[Verify multiplicatoion operation]]>
+    </line>
+    <line>
+      <![CDATA[Testcase pass]]>
+    </line>
+    <line>
+      <![CDATA[Verify Division operation]]>
+    </line>
+    <line>
+      <![CDATA[Testcase pass]]>
+    </line>
+    <line>
+      <![CDATA[Verify Addition operation]]>
+    </line>
+    <line>
+      <![CDATA[Testcase pass]]>
+    </line>
+    <line>
+      <![CDATA[Verify Substraction operation]]>
+    </line>
+    <line>
+      <![CDATA[Testcase pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-02T11:43:17 IST" name="Default suite" finished-at="2021-12-02T11:45:38 IST" duration-ms="141259">
+    <groups>
+    </groups>
+    <test started-at="2021-12-02T11:43:17 IST" name="Default test" finished-at="2021-12-02T11:45:38 IST" duration-ms="141259">
+      <class name="TestClassPOM">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestClassPOM@14d3bc22]" started-at="2021-12-02T11:43:17 IST" name="LaunchBrowser" finished-at="2021-12-02T11:44:22 IST" duration-ms="64887" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ToVerifyMultiplicationOperation()[pri:0, instance:TestClassPOM@14d3bc22]" started-at="2021-12-02T11:44:22 IST" name="ToVerifyMultiplicationOperation" finished-at="2021-12-02T11:44:40 IST" duration-ms="18154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify multiplicatoion operation]]>
+            </line>
+            <line>
+              <![CDATA[Testcase pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToVerifyMultiplicationOperation -->
+        <test-method signature="ToVerifyDivisionOperation()[pri:1, instance:TestClassPOM@14d3bc22]" started-at="2021-12-02T11:44:40 IST" name="ToVerifyDivisionOperation" finished-at="2021-12-02T11:44:58 IST" duration-ms="18244" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Division operation]]>
+            </line>
+            <line>
+              <![CDATA[Testcase pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToVerifyDivisionOperation -->
+        <test-method signature="ToVerifyAdditionOperation()[pri:2, instance:TestClassPOM@14d3bc22]" started-at="2021-12-02T11:44:58 IST" name="ToVerifyAdditionOperation" finished-at="2021-12-02T11:45:14 IST" duration-ms="16327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Addition operation]]>
+            </line>
+            <line>
+              <![CDATA[Testcase pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToVerifyAdditionOperation -->
+        <test-method signature="ToVerifySubstractionOperation()[pri:3, instance:TestClassPOM@14d3bc22]" started-at="2021-12-02T11:45:14 IST" name="ToVerifySubstractionOperation" finished-at="2021-12-02T11:45:31 IST" duration-ms="17015" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Substraction operation]]>
+            </line>
+            <line>
+              <![CDATA[Testcase pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ToVerifySubstractionOperation -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestClassPOM@14d3bc22]" started-at="2021-12-02T11:45:32 IST" name="CloseBrowser" finished-at="2021-12-02T11:45:38 IST" duration-ms="6300" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestClassPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
