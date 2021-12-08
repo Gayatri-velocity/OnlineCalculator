@@ -11,9 +11,10 @@ public class Base {
 	
 	public WebDriver browserInitialize() 
 	{
+		String path=System.getProperty("user.dir");
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("--disable-notifications");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user1\\Desktop\\Selenium\\chromedriver (2).exe");
+		System.setProperty("webdriver.chrome.driver", path+"\\Chromedriver\\chromedriver.exe");
 	    driver= new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get(" https://www.calculator.net/");
